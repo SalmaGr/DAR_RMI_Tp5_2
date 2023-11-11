@@ -4,7 +4,7 @@ import java.rmi.Remote;
 import java.rmi.RemoteException;
 
 //Interface définissant un service de conversion à distance
-//L'interface définit simplement la signature des méthodes, sans fournir de corps de méthode.
+//Une interface définit simplement la signature des méthodes, sans fournir de corps de méthode.
 public interface IConversion extends Remote {
 	 //La méthode convertirMontant prend en charge cette conversion 
 	 //et renvoie le résultat en double.
